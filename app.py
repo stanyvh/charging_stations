@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 
 # ---------- 1. Load trained model ----------
-MODEL_PATH = Path("ev_charger_predictor.joblib")
+MODEL_PATH = Path("ev_charger_predictor_3.joblib")
 if not MODEL_PATH.exists():
     st.error(f"Model file not found. Train and export the model first.")
     st.stop()
